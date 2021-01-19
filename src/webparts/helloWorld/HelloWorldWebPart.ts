@@ -127,7 +127,8 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
       pages: [
         {
           header: {
-            description: strings.PropertyPaneDescription,
+            // This was just a test
+            description: this.properties.description,
           },
           groups: [
             {
